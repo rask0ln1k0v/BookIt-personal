@@ -10,6 +10,12 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-controls:17.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-controls:win:17.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-graphics:17.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-graphics:win:17.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-base:17.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-base:win:17.0.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: io.rest-assured:rest-assured:4.3.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.codehaus.groovy:groovy:3.0.6" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.codehaus.groovy:groovy-xml:3.0.6" level="project" />
