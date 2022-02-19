@@ -21,7 +21,7 @@ public class Environment {
         static {
 
             Properties properties = null;
-            String environment = System.getProperty("environment") != null ? environment = System.getProperty("environment") : ConfigurationReader.getProperty("environment");
+            String environment = System.getProperty("env") != null ? System.getProperty("env") : ConfigurationReader.getProperty("env");
             //String environment = ConfigurationReader.get("environment");
 
             try {
