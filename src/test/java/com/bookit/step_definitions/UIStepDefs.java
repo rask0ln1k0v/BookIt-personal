@@ -81,7 +81,7 @@ public class UIStepDefs {
     public void userShouldSeeAvailableRooms() {
         WebDriverWait wait = new WebDriverWait(Driver.getDriver(),10);
         wait.until(ExpectedConditions.visibilityOfAllElements(spotsPage.roomNames));
-
+        BrowserUtils.waitFor(4);
         availableRooms= BrowserUtils.getElementsText(spotsPage.roomNames);
        assertEquals(7,availableRooms.size());
         System.out.println(availableRooms);
