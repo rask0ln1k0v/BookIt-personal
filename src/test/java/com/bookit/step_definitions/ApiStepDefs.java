@@ -202,6 +202,7 @@ public class ApiStepDefs {
             "inner join cluster c on room.cluster_id = c.id\n" +
             "where c.name='light-side';";
         List<Object> dbAvailableRooms = DBUtils.getColumnData(sql, "name");
+        BrowserUtils.waitFor(4);
         assertThat(dbAvailableRooms,equalTo(UIStepDefs.availableRooms));
         assertThat(dbAvailableRooms,equalTo(roomsAPI));
 
